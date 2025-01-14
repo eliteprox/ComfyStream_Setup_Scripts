@@ -242,7 +242,7 @@ if [ "$CONDA_DEFAULT_ENV" != "comfyui" ]; then
 fi
 echo "✅ Successfully activated comfyui environment"
 
-cd /workspace/ComfyUI
+cd /workspace/comfyRealtime/ComfyUI
 echo "📦 Installing ComfyUI requirements..."
 pip install -r requirements.txt
 cd custom_nodes/ComfyUI-Manager
