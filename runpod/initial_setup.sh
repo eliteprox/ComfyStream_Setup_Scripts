@@ -249,6 +249,10 @@ cd custom_nodes/ComfyUI-Manager
 echo "📦 Installing ComfyUI-Manager requirements..."
 pip install -r requirements.txt
 
+cd /workspace/ComfyUI/custom_nodes/ComfyUI_RealTimeNodes
+echo "📦 Installing ComfyUI_RealTimeNodes requirements..."
+pip install -r requirements.txt
+
 # Return to base environment
 echo "🔄 Deactivating comfyui environment..."
 conda deactivate
